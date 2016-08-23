@@ -1,0 +1,17 @@
+/*////////////////////////////////////////*/
+/*_________________BADGE__________________*/
+/*////////////////////////////////////////*/
+.badge
+{
+	display:inline;
+	padding:5px;
+	border-radius:3px;
+	font-size: 0.8rem;
+	box-shadow: inset -1px -1px 0px 0px rgba(0, 0, 0, 0.33);
+	cursor:default;
+	margin:0px 15px 0px 15px;
+}
+.badge:hover
+{
+	/* box-shadow: inset -2px -2px 0px 0px rgba(0, 0, 0, 0.33); */
+}

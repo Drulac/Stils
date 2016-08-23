@@ -1,0 +1,17 @@
+/*////////////////////////////////////////*/
+/*_________________BUTTON_________________*/
+/*////////////////////////////////////////*/
+.btn
+{
+	padding:10px;
+	border-radius:3px;
+	min-width:40px;
+	box-shadow: inset -1px -1px 0px 0px rgba(0, 0, 0, 0.33);
+	cursor:pointer;
+	display: inline-block;
+	margin:0 15px 0 15px;
+}
+.btn:hover
+{
+	box-shadow: inset -2px -2px 0px 0px rgba(0, 0, 0, 0.33);
+}

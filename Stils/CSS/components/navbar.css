@@ -1,0 +1,45 @@
+/*////////////////////////////////////////*/
+/*_________________NAVBAR_________________*/
+/*////////////////////////////////////////*/
+.navbar
+{
+	width:100%;
+	height:64px;
+	box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.33);
+	text-align:center;
+}
+
+.navbar li
+{
+	display:inline;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.navbar a
+{
+	height: 64px;
+	line-height:64px;
+	text-decoration:none;
+	display: inline-block;
+}
+
+.navbar a:hover
+{
+	text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.33);
+}
+
+.navbar .left
+{
+	float:left;
+}
+
+.navbar .center
+{
+	float:center;
+}
+
+.navbar .right
+{
+	float:right;
+}

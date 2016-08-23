@@ -1,0 +1,40 @@
+/*////////////////////////////////////////*/
+/*_______________BREADCRUMB_______________*/
+/*////////////////////////////////////////*/
+.breadcrumb
+{
+	width:100%;
+	height:64px;
+	box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.33);
+}
+
+.breadcrumb a
+{
+	text-decoration: none;
+	line-height:64px;
+}
+
+.breadcrumb a:hover
+{
+	text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.33);
+}
+
+.breadcrumb a:first-child
+{
+	margin-left:15px;
+}
+
+.breadcrumb a::before
+{
+	content: '\E5CC';
+	vertical-align: top;
+	display: inline-block;
+	font-family: 'Material Icons';
+	margin: 0 7.5px 0 7.5px;
+}
+}
+
+.breadcrumb a:first-child::before
+{
+	content:"";
+}

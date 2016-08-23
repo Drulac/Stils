@@ -1,0 +1,57 @@
+/*////////////////////////////////////////*/
+/*_________________FORMS__________________*/
+/*////////////////////////////////////////*/
+form
+{
+
+}
+
+.input-field
+{
+	width:calc(100% - 15px);
+	margin:7.5px;
+}
+
+.input-field input[type=text], .input-field input[type=email], .input-field input[type=password]
+{
+	border:solid 1px #64B5F6; /* DEFAULT BACKGROUND COLOR */
+	font-size:24px;
+	border-radius:3px;
+	padding:5px;
+	box-sizing:border-box;
+	width:100%;
+}
+
+.input-field input[type=text]:hover, .input-field input[type=email]:hover, .input-field input[type=password]:hover, .input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=password]:focus
+{
+	border:solid 1px #64B5F6;
+}
+
+
+
+
+
+.input-field label
+{
+	color:blue;
+	width:auto;
+	float: left;
+	line-height:40px;
+	padding-right:7.5px;
+	padding-left:7.5px;
+	color:white;
+	border-radius:3px 0 0 3px;
+}
+
+.input-field label + div
+{
+	width: auto;
+	overflow: auto;
+}
+
+.input-field label + div input
+{
+	width: 100%;
+	box-sizing:border-box;
+	border-radius:0 3px 3px 0 !important;
+}
