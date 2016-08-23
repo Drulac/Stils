@@ -1,2 +1,2 @@
 # Stils
-Un framework CSS flat
+Un framework CSS flat inspiré de materializecss
